@@ -26,3 +26,5 @@ def writing_csv_file(list_of_tuples,filename):
     target.close();
     print "Writing to csv is done"
     print "check the csv file"
+
+writing_csv_file(list_of_tuples,filename)
