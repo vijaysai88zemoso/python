@@ -8,9 +8,9 @@ list_of_tuples = literal_eval(raw_input("Enter list of tuples : "))
 def writing_csv_file(list_of_tuples,filename):
     print "Opening the file..."
     target = open(filename, 'w')
-
-    print "Truncating the file.  Goodbye!"
-    target.truncate()
+    #
+    # print "Truncating the file.  Goodbye!"
+    # target.truncate()
 
     print "Taking the input entered and converted to string and writing in csv file ..."
     for tuples in list_of_tuples:
